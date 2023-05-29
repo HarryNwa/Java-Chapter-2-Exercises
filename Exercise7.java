@@ -1,7 +1,12 @@
+import java.util.Scanner;
 public class Exercise7{
 	public static void main(String[] args){
 	
-	int number = 99;
+	Scanner input = new Scanner(System.in);
+	
+	System.out.println("Enter any number  ");
+	int number = input.nextInt();
+	//int number = 98;
 	
 	if(number % 3 != 0){
 	

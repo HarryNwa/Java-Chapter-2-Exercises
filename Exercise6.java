@@ -1,10 +1,10 @@
 public class Exercise6{
 	public static void main(String[] args){
 	
-	int first = 5;
-	int second = 10;
-	int third = 15;
-	int fourth = 20;
+	int first = 12;
+	int second = 8;
+	int third = 11;
+	int fourth = 13;
 	int fifth = 25;
 	
 	int smallest = first;
@@ -22,19 +22,20 @@ public class Exercise6{
 	smallest = fifth;
 	}
 	
+	
 	int largest = first;
 	
 	if(second > first){
 	largest = second;
 	}
-	if(second > first){
-	largest = second;
+	if(third > first){
+	largest = third;
 	}
-	if(second > first){
-	largest = second;
+	if(fourth > first){
+	largest = fourth;
 	}
-	if(second > first){
-	largest = second;
+	if(fifth > first){
+	largest = fifth;
 	}
 	
 	System.out.printf("%d %d %d %d %d%n", first, second, third, fourth, fifth);
