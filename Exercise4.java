@@ -32,14 +32,14 @@ public class Exercise4{
 	largest = secondChoice;
 	}
 	
-	if (thirdChoice > secondChoice){
+	if (thirdChoice > firstChoice){
 	largest = thirdChoice;
 	}
 	
 	
 	System.out.printf("%d %d %d%n", sum, average, product);
-	System.out.printf("The smallest number is %d%n", + smallest);
-	System.out.printf("The largest number is %d%n", + largest);
+	System.out.printf("The smallest number is %d%n", smallest);
+	System.out.printf("The largest number is %d%n", largest);
 	
 	
 	

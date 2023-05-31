@@ -1,11 +1,11 @@
 public class Exercise6{
 	public static void main(String[] args){
 	
-	int first = 12;
-	int second = 8;
-	int third = 11;
-	int fourth = 13;
-	int fifth = 25;
+	int first = 1;
+	int second = 2;
+	int third = 3;
+	int fourth = 0;
+	int fifth = 5;
 	
 	int smallest = first;
 	
